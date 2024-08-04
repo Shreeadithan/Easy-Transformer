@@ -2,7 +2,7 @@ This repository contains the code for all experiments in the paper "Interpretabi
 
 <img src="https://i.imgur.com/iptFVBc.png">
 
-This is intended as a one-time code drop. <b>The authors recommend those interested in mechanistic interpretability using the <a href="https://github.com/TransformerLensOrg/TransformerLens">Transformer Lens</a> library</b>. 
+This is intended as a one-time code drop. <b>The authors recommend those interested in mechanistic interpretability use the <a href="https://github.com/TransformerLensOrg/TransformerLens">Transformer Lens</a> library</b>. 
 
 Specifically, <a href="https://colab.research.google.com/github/TransformerLensOrg/TransformerLens/blob/main/demos/Main_Demo.ipynb">this TransformerLens demo</a> goes through a number of experiments from the Interpretability in the Wild paper, and also introduces other features of that library, which are helpful for building off of our research.
 
