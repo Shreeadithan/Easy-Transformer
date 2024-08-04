@@ -2,7 +2,11 @@ This repository contains the code for all experiments in the paper "Interpretabi
 
 <img src="https://i.imgur.com/iptFVBc.png">
 
-This is intended as a one-time code drop. <b>The authors recommend those interested in mechanistic interpretability using the <a href="https://github.com/neelnanda-io/TransformerLens">Transformer Lens</a> library</b>. Contact arthurconmy@gmail.com or comment on <a href="https://github.com/redwoodresearch/Easy-Transformer/pull/8">this</a> PR (sadly issues don't work for forks) for proposed changes.
+This is intended as a one-time code drop. <b>The authors recommend those interested in mechanistic interpretability using the <a href="https://github.com/neelnanda-io/TransformerLens">Transformer Lens</a> library</b>. 
+
+Specifically, <a href="https://colab.research.google.com/github/TransformerLensOrg/TransformerLens/blob/main/demos/Main_Demo.ipynb">this</a> TransformerLens demo goes through a number of experiments from the Interpretability in the Wild paper, and also introduces other features of that library, which are helpful for building of our research.
+
+Contact arthurconmy@gmail.com or comment on <a href="https://github.com/redwoodresearch/Easy-Transformer/pull/8">this</a> PR (sadly issues don't work for forks) for proposed changes.
 
 # Quick Start
 
