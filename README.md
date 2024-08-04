@@ -2,11 +2,15 @@ This repository contains the code for all experiments in the paper "Interpretabi
 
 <img src="https://i.imgur.com/iptFVBc.png">
 
-This is intended as a one-time code drop. <b>The authors recommend those interested in mechanistic interpretability using the <a href="https://github.com/neelnanda-io/TransformerLens">Transformer Lens</a> library</b>. Contact arthurconmy@gmail.com or comment on <a href="https://github.com/redwoodresearch/Easy-Transformer/pull/8">this</a> PR (sadly issues don't work for forks) for proposed changes.
+This is intended as a one-time code drop. <b>The authors recommend those interested in mechanistic interpretability use the <a href="https://github.com/TransformerLensOrg/TransformerLens">Transformer Lens</a> library</b>. 
+
+Specifically, <a href="https://colab.research.google.com/github/TransformerLensOrg/TransformerLens/blob/main/demos/Main_Demo.ipynb">this TransformerLens demo</a> goes through a number of experiments from the Interpretability in the Wild paper, and also introduces other features of that library, which are helpful for building off of our research.
+
+Contact arthurconmy@gmail.com or comment on <a href="https://github.com/redwoodresearch/Easy-Transformer/pull/8">this</a> PR (sadly issues don't work for forks) for proposed changes.
 
 # Quick Start
 
-See and run the experiments on Google Colab: https://colab.research.google.com/drive/1n4Wgulv5ev5rgRUL7ypOw0odga9LEWHA?usp=sharing .
+See and run the experiments <a href="https://colab.research.google.com/drive/1n4Wgulv5ev5rgRUL7ypOw0odga9LEWHA?usp=sharing">on Google Colab</a>.
 
 # Setup
 
@@ -40,4 +44,4 @@ In this repo, you can find the following notebooks (some are in `easy_transforme
 
 It supports the importation of open sources models, a convenient handling of hooks to get access to intermediate activations and features to perform simple emperiments such as ablations and patching.
 
-A demo notebook can be found [here](https://colab.research.google.com/github/neelnanda-io/TransformerLens/blob/main/EasyTransformer_Demo.ipynb) and a more comprehensive description of the library can be found [here](https://colab.research.google.com/drive/1_tH4PfRSPYuKGnJbhC1NqFesOYuXrir_#scrollTo=zs8juArnyuyB)
+A demo notebook can be found [here](https://colab.research.google.com/github/TransformerLensOrg/TransformerLens/blob/main/demos/Main_Demo.ipynb), with links to other tutorials and demos too.
