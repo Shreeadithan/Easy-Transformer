@@ -1,47 +1,31 @@
-This repository contains the code for all experiments in the paper "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 Small" (Wang et al, 2022).
+# Easy-Transformer (TransformerLens) Fork
 
-<img src="https://i.imgur.com/iptFVBc.png">
+This repository contains code based on the paper **"Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 Small"**. The library is designed to make mechanistic interpretability research easier and more accessible.
 
-This is intended as a one-time code drop. <b>The authors recommend those interested in mechanistic interpretability use the <a href="https://github.com/TransformerLensOrg/TransformerLens">Transformer Lens</a> library</b>. 
+The original source code can be found at [https://github.com/redwoodresearch/Easy-Transformer.git](https://github.com/redwoodresearch/Easy-Transformer.git) (which has since been renamed TransformerLens).
 
-Specifically, <a href="https://colab.research.google.com/github/TransformerLensOrg/TransformerLens/blob/main/demos/Main_Demo.ipynb">this TransformerLens demo</a> goes through a number of experiments from the Interpretability in the Wild paper, and also introduces other features of that library, which are helpful for building off of our research.
+---
 
-Contact arthurconmy@gmail.com or comment on <a href="https://github.com/redwoodresearch/Easy-Transformer/pull/8">this</a> PR (sadly issues don't work for forks) for proposed changes.
+### Changes in This Fork
 
-# Quick Start
+This is a forked version of the original library, and the following key changes have been made to improve its usability:
 
-See and run the experiments <a href="https://colab.research.google.com/drive/1n4Wgulv5ev5rgRUL7ypOw0odga9LEWHA?usp=sharing">on Google Colab</a>.
+* **Jupyter Notebook "Getting_Started.ipynb" is added**: This notebook provides a comprehensive, step-by-step guide to get started. It demonstrates how to install the library, load a pre-trained model like GPT-2, and run a core interpretability technique (an ablation experiment) with clear explanations.
+* **Updated Dependencies**: Versions of certain imports have been updated to ensure compatibility with modern Python environments.
+* **Added Code Comments**: Explanatory comments have been added to core files like `easy_transformer/EasyTransformer.py` to clarify complex functions and the library's internal workings.
 
-# Setup
+---
 
-## Option 1) install with pip
+### Citation
 
-```
-pip install git+https://github.com/redwoodresearch/Easy-Transformer.git
-```
+If you find this model and the original research useful for your publications, we encourage you to cite the original paper:
 
-## Option 2) clone repository (for development, and finer tuning)
-
-```bash
-git clone https://github.com/redwoodresearch/Easy-Transformer/
-pip install -r requirements.txt
-```
-
-# In this repo
-
-In this repo, you can find the following notebooks (some are in `easy_transformer/`):
-
-* `experiments.py`: a notebook of several of the most interesting experiments of the IOI project.
-* `completeness.py`: a notebook that generate the completeness plots in the paper, and implements the completeness functions.
-* `minimality.py`: as above for minimality.
-* `advex.py`: a notebook that generates adversarial examples as in the paper.
-`
-# Easy Transformer
-
-<i>(later renamed "TransformerLens")</i>
-
-## An implementation of transformers tailored for mechanistic interpretability.
-
-It supports the importation of open sources models, a convenient handling of hooks to get access to intermediate activations and features to perform simple emperiments such as ablations and patching.
-
-A demo notebook can be found [here](https://colab.research.google.com/github/TransformerLensOrg/TransformerLens/blob/main/demos/Main_Demo.ipynb), with links to other tutorials and demos too.
+```bibtex
+@misc{wang2022interpretability,
+      title={Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small}, 
+      author={Kevin Wang and Alexandre Variengien and Arthur Conmy and Buck Shlegeris and Jacob Steinhardt},
+      year={2022},
+      eprint={2211.00593},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
